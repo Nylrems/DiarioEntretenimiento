@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="DiarioEntretenimiento.AccesoDatos/DiarioEntretenimiento.AccesoDatos.csproj" />
+  <Project Path="DiarioEntretenimiento.API/DiarioEntretenimiento.API.csproj" />
+  <Project Path="DiarioEntretenimiento.BaseDatos/DiarioEntretenimiento.BaseDatos.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="DiarioEntretenimiento.LogicaNegocio/DiarioEntretenimiento.LogicaNegocio.csproj" />
+</Solution>
