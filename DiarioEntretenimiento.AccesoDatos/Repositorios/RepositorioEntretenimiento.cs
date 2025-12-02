@@ -13,7 +13,7 @@ namespace DiarioEntretenimiento.AccesoDatos.Repositorios
             _cadenaConexion = cadenaConexion;
         }
 
-        public List<ItemEntretenimiento> ObtenerTodo()
+        public List<ItemEntretenimiento> ObtenerCatalogo()
         {
             var lista = new List<ItemEntretenimiento>();
 

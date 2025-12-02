@@ -14,7 +14,7 @@ namespace DiarioEntretenimiento.LogicaNegocio.Servicios
 
         public List<ItemEntretenimiento> ObtenerCatalogo()
         {
-            return _repositorio.ObtenerTodo();
+            return _repositorio.ObtenerCatalogo();
         }
     }
 }
