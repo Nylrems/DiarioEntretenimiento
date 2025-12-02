@@ -1,7 +1,7 @@
 <Solution>
   <Project Path="DiarioEntretenimiento.AccesoDatos/DiarioEntretenimiento.AccesoDatos.csproj" />
   <Project Path="DiarioEntretenimiento.API/DiarioEntretenimiento.API.csproj" />
-  <Project Path="DiarioEntretenimiento.BaseDatos/DiarioEntretenimiento.BaseDatos.sqlproj">
+  <Project Path="DiarioEntretenimiento.BaseDatos/DiarioEntretenimiento.BaseDatos.sqlproj" Id="b2a1fe02-0c88-452e-815d-15e4acacf7ba">
     <Build />
     <Deploy />
   </Project>
