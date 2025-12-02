@@ -59,10 +59,15 @@
     <Folder Include="Tables" />
     <Folder Include="BaseDatos" />
     <Folder Include="ProcedimientoAlmacenados" />
+    <Folder Include="TestScripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Entretenimiento.sql" />
     <Build Include="BaseDatos\DiarioEntretenimientoDB.sql" />
     <Build Include="ProcedimientoAlmacenados\PA_ObtenerEntretenimiento.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestScripts\InsertItemDiarioEntretenimiento.sql" />
+    <None Include="ProcedimientoAlmacenados\PA_InsertarEntretenimiento.sql" />
   </ItemGroup>
 </Project>
