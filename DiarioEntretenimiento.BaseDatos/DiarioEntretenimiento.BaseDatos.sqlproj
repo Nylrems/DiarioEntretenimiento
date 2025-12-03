@@ -63,11 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Entretenimiento.sql" />
-    <Build Include="ProcedimientoAlmacenados\PA_ObtenerEntretenimiento.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TestScripts\InsertItemDiarioEntretenimiento.sql" />
     <None Include="ProcedimientoAlmacenados\PA_InsertarEntretenimiento.sql" />
     <None Include="BaseDatos\DiarioEntretenimiento.sql" />
+    <None Include="ProcedimientoAlmacenados\PA_ObtenerEntretenimiento.sql" />
   </ItemGroup>
 </Project>
