@@ -1,4 +1,7 @@
-﻿CREATE PROCEDURE [dbo].[PA_ObtenerEntretenimiento]
+﻿USE DiarioEntretenimientoDB;
+GO
+
+CREATE PROCEDURE [dbo].[PA_ObtenerEntretenimiento]
 	
 AS
 BEGIN

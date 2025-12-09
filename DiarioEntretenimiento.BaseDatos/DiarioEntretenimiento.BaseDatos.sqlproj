@@ -62,12 +62,12 @@
     <Folder Include="TestScripts" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Entretenimiento.sql" />
+    <Build Include="Tables\0002-Entretenimiento.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TestScripts\InsertItemDiarioEntretenimiento.sql" />
-    <None Include="ProcedimientoAlmacenados\PA_InsertarEntretenimiento.sql" />
-    <None Include="BaseDatos\DiarioEntretenimiento.sql" />
-    <None Include="ProcedimientoAlmacenados\PA_ObtenerEntretenimiento.sql" />
+    <None Include="ProcedimientoAlmacenados\0004-PA_InsertarEntretenimiento.sql" />
+    <None Include="BaseDatos\0001-DiarioEntretenimiento.sql" />
+    <None Include="ProcedimientoAlmacenados\0003-PA_ObtenerEntretenimiento.sql" />
   </ItemGroup>
 </Project>
