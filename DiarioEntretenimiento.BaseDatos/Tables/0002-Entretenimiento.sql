@@ -1,4 +1,6 @@
-﻿CREATE TABLE [dbo].[Entretenimiento]
+﻿USE DiarioEntretenimientoDB;
+GO
+CREATE TABLE [dbo].[Entretenimiento]
 (
 	Id INT IDENTITY(1,1) PRIMARY KEY,
 	Titulo NVARCHAR (100) NOT NULL,
@@ -9,3 +11,4 @@
 	Comentario NVARCHAR(MAX) NULL,
 	FechaRegistro DATETIME DEFAULT GETDATE()
 );
+GO

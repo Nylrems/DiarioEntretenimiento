@@ -10,15 +10,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Inyección de dependencias (La parte más importante de la arquitectura)
-// Aquí se crea el ServicioEntretenimiento.
+// Inyecciï¿½n de dependencias (La parte mï¿½s importante de la arquitectura)
+// Aquï¿½ se crea el ServicioEntretenimiento.
 string cadenaConexion = builder.Configuration.GetConnectionString("DefaultConnetion");
 
-// Con "AddScoped" se crea una nueva instancia por cada petición HTTP.
+// Con "AddScoped" se crea una nueva instancia por cada peticiï¿½n HTTP.
 builder.Services.AddScoped<ServicioEntretenimiento>(provider =>
     new ServicioEntretenimiento(cadenaConexion));
 
-// Configurando el CORS (para la comunicación con React)
+// Configurando el CORS (para la comunicaciï¿½n con React)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("NuevaPolitica", app =>
@@ -31,7 +31,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configuración de Swagger solo para dev
+// Configuraciï¿½n de Swagger solo para dev
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -40,7 +40,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// Con esto activamos la política de CORS definida arriba
+// Con esto activamos la polï¿½tica de CORS definida arriba
 app.UseCors("NuevaPolitica");
 
 app.UseAuthorization();
